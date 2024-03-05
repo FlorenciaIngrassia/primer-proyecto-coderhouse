@@ -1,0 +1,109 @@
+@import url(
+  "https@import url("https://fonts.googleapis.com/css2?family=Mulish:ital;wght@0,
+  200;0,
+  300;1,
+  200;1,
+  300&family=Roboto&display=swap");://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;1,200;1,300&family=Roboto&display=swap"
+);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header {
+  background-color: rgb(185, 111, 111);
+  color: white;
+  .logo {
+    width: 70px;
+  }
+}
+
+listNav {
+  list-style: none;
+}
+
+.listaNav .linkNav {
+  text-decoration: none;
+  color: black;
+}
+
+.listaNav {
+  background-color: darkkhaki;
+  .listaItem {
+    .colorAqua {
+      color: rgb(8, 59, 59);
+    }
+  }
+}
+.mainIndex {
+  .seccionInicial {
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    background-image: url(../assets/img/header.jpg);
+    background-size: cover;
+    background-position: 20%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60%;
+    height: 70vh;
+  }
+
+  .seccionTarjetas {
+    background-color: cornsilk;
+    .contenedorTarjetas {
+      display: flex;
+      justify-content: space-evenly;
+      .tarjeta {
+        width: 300px;
+        height: 300px;
+        background-color: rgb(233, 202, 155);
+        border: 3px solid black;
+        padding: 30px;
+        .imgTarjeta {
+          width: 100%;
+          height: 90%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+
+.colorCoral {
+  color: coral;
+}
+
+.imagen-size {
+  width: 50px;
+}
+.tiktok-embed {
+  width: 100px;
+  height: 500px;
+}
+.colorRosa {
+  color: rgb(134, 49, 49);
+}
+.colorVerde {
+  color: rgb(94, 138, 20);
+}
+
+.formatoImg {
+  border: solid rgb(228, 156, 98) 3px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.rectangulos {
+  border: solid rgb(228, 156, 98) 3px;
+  width: 130px;
+}
+
+.formatoLogo {
+  width: 100 px;
+}
+
+.bgNavegacion {
+  background-color: burlywood;
+}
